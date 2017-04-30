@@ -1,7 +1,16 @@
 p{
     color:red;
 }
-body {
-    background-color: lightblue;
+ 
+body{
+     background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); 
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow); 
+    background: linear-gradient(lightblue, yellow); 
 }
+
+    
+    
+
 
